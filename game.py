@@ -8,7 +8,7 @@ clock = pygame.time.Clock()
 fps = 60
 
 screen_width = 864
-screen_height = 936
+screen_height = 937
 
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Flappy BhAAi')
@@ -21,7 +21,7 @@ white = (255, 255, 255)
 
 # Define game variables
 ground_scroll = 0
-scroll_speed = 4
+scroll_speed = 5
 flying = False
 game_over = False
 pipe_gap = 150
